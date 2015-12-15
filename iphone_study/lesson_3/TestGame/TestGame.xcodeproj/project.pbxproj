@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C8882116FDF832000484E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8882016FDF832000484E4 /* UIKit.framework */; };
+		B0C8882316FDF832000484E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8882216FDF832000484E4 /* Foundation.framework */; };
+		B0C8882516FDF832000484E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8882416FDF832000484E4 /* CoreGraphics.framework */; };
+		B0C8882716FDF832000484E4 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8882616FDF832000484E4 /* GLKit.framework */; };
+		B0C8882916FDF832000484E4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8882816FDF832000484E4 /* OpenGLES.framework */; };
+		B0C8882F16FDF832000484E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C8882D16FDF832000484E4 /* InfoPlist.strings */; };
+		B0C8883116FDF832000484E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8883016FDF832000484E4 /* main.m */; };
+		B0C8883516FDF832000484E4 /* IPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8883416FDF832000484E4 /* IPhoneAppDelegate.m */; };
+		B0C8883816FDF832000484E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C8883616FDF832000484E4 /* MainStoryboard.storyboard */; };
+		B0C8883A16FDF832000484E4 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B0C8883916FDF832000484E4 /* Shader.fsh */; };
+		B0C8883C16FDF832000484E4 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B0C8883B16FDF832000484E4 /* Shader.vsh */; };
+		B0C8883F16FDF832000484E4 /* IPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8883E16FDF832000484E4 /* IPhoneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0C8881C16FDF832000484E4 /* TestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C8882016FDF832000484E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0C8882216FDF832000484E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0C8882416FDF832000484E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0C8882616FDF832000484E4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B0C8882816FDF832000484E4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B0C8882C16FDF832000484E4 /* TestGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGame-Info.plist"; sourceTree = "<group>"; };
+		B0C8882E16FDF832000484E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0C8883016FDF832000484E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C8883216FDF832000484E4 /* TestGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGame-Prefix.pch"; sourceTree = "<group>"; };
+		B0C8883316FDF832000484E4 /* IPhoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneAppDelegate.h; sourceTree = "<group>"; };
+		B0C8883416FDF832000484E4 /* IPhoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneAppDelegate.m; sourceTree = "<group>"; };
+		B0C8883716FDF832000484E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0C8883916FDF832000484E4 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		B0C8883B16FDF832000484E4 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		B0C8883D16FDF832000484E4 /* IPhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneViewController.h; sourceTree = "<group>"; };
+		B0C8883E16FDF832000484E4 /* IPhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C8881916FDF832000484E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8882116FDF832000484E4 /* UIKit.framework in Frameworks */,
+				B0C8882316FDF832000484E4 /* Foundation.framework in Frameworks */,
+				B0C8882516FDF832000484E4 /* CoreGraphics.framework in Frameworks */,
+				B0C8882716FDF832000484E4 /* GLKit.framework in Frameworks */,
+				B0C8882916FDF832000484E4 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C8881116FDF832000484E4 = {
+			isa = PBXGroup;
+			children = (
+				B0C8882A16FDF832000484E4 /* TestGame */,
+				B0C8881F16FDF832000484E4 /* Frameworks */,
+				B0C8881D16FDF832000484E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C8881D16FDF832000484E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8881C16FDF832000484E4 /* TestGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C8881F16FDF832000484E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8882016FDF832000484E4 /* UIKit.framework */,
+				B0C8882216FDF832000484E4 /* Foundation.framework */,
+				B0C8882416FDF832000484E4 /* CoreGraphics.framework */,
+				B0C8882616FDF832000484E4 /* GLKit.framework */,
+				B0C8882816FDF832000484E4 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C8882A16FDF832000484E4 /* TestGame */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8883316FDF832000484E4 /* IPhoneAppDelegate.h */,
+				B0C8883416FDF832000484E4 /* IPhoneAppDelegate.m */,
+				B0C8883616FDF832000484E4 /* MainStoryboard.storyboard */,
+				B0C8883916FDF832000484E4 /* Shader.fsh */,
+				B0C8883B16FDF832000484E4 /* Shader.vsh */,
+				B0C8883D16FDF832000484E4 /* IPhoneViewController.h */,
+				B0C8883E16FDF832000484E4 /* IPhoneViewController.m */,
+				B0C8882B16FDF832000484E4 /* Supporting Files */,
+			);
+			path = TestGame;
+			sourceTree = "<group>";
+		};
+		B0C8882B16FDF832000484E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8882C16FDF832000484E4 /* TestGame-Info.plist */,
+				B0C8882D16FDF832000484E4 /* InfoPlist.strings */,
+				B0C8883016FDF832000484E4 /* main.m */,
+				B0C8883216FDF832000484E4 /* TestGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C8881B16FDF832000484E4 /* TestGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C8884216FDF832000484E4 /* Build configuration list for PBXNativeTarget "TestGame" */;
+			buildPhases = (
+				B0C8881816FDF832000484E4 /* Sources */,
+				B0C8881916FDF832000484E4 /* Frameworks */,
+				B0C8881A16FDF832000484E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGame;
+			productName = TestGame;
+			productReference = B0C8881C16FDF832000484E4 /* TestGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C8881316FDF832000484E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B0C8881616FDF832000484E4 /* Build configuration list for PBXProject "TestGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0C8881116FDF832000484E4;
+			productRefGroup = B0C8881D16FDF832000484E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C8881B16FDF832000484E4 /* TestGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C8881A16FDF832000484E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8882F16FDF832000484E4 /* InfoPlist.strings in Resources */,
+				B0C8883816FDF832000484E4 /* MainStoryboard.storyboard in Resources */,
+				B0C8883A16FDF832000484E4 /* Shader.fsh in Resources */,
+				B0C8883C16FDF832000484E4 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C8881816FDF832000484E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8883116FDF832000484E4 /* main.m in Sources */,
+				B0C8883516FDF832000484E4 /* IPhoneAppDelegate.m in Sources */,
+				B0C8883F16FDF832000484E4 /* IPhoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0C8882D16FDF832000484E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8882E16FDF832000484E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0C8883616FDF832000484E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8883716FDF832000484E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C8884016FDF832000484E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0C8884116FDF832000484E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C8884316FDF832000484E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGame/TestGame-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestGame/TestGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0C8884416FDF832000484E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGame/TestGame-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestGame/TestGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C8881616FDF832000484E4 /* Build configuration list for PBXProject "TestGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8884016FDF832000484E4 /* Debug */,
+				B0C8884116FDF832000484E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C8884216FDF832000484E4 /* Build configuration list for PBXNativeTarget "TestGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8884316FDF832000484E4 /* Debug */,
+				B0C8884416FDF832000484E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C8881316FDF832000484E4 /* Project object */;
+}
